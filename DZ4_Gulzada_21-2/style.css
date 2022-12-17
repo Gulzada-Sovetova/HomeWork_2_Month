@@ -1,0 +1,36 @@
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: blueviolet;
+}
+h1 {
+    font-size: 50px;
+    margin: 30px 0;
+    color: whitesmoke;
+}
+h2 {
+    margin: 40px 0px;
+    font-size: 80px;
+    color: whitesmoke;
+}
+#subtract, #btn, #add {
+    font-size: 20px;
+    border: none;
+    margin: 5px;
+    padding: 3px 6px;
+    
+
+    cursor: pointer;
+}
+#btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
