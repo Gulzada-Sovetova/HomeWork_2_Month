@@ -1,0 +1,93 @@
+
+body { 
+    text-align: center;
+    background-color: azure;
+    margin: 0;
+    color: rgb(222, 205, 205);
+}
+.back {
+    height: 100vh;
+    background-image: url(../DZ4-2_Gulzada_21-2/pictures/ocean.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+h1 {
+    margin: 0;
+    font-size: 56px;
+}
+p {
+    font-size: 20px;
+}
+#btn {
+    background-color: rgb(36, 160, 237);
+    border: none;
+    padding: 6px 10px;
+    font-size: 32px;
+    color: white;
+    border-radius: 4px;
+    margin: 16px;
+    cursor: pointer;
+
+}
+.numbers {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 32px;
+}
+
+#round_1 {
+    width: 80px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+#round_2 {
+    width: 80px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+#round_3 {
+    width: 80px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+#round_4 {
+    width: 80px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+#round_5 {
+    width: 80px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+#round_6 {
+    width: 80px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
