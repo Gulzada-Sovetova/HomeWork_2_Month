@@ -1,0 +1,32 @@
+
+#box {
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: #bbd048;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 50px;
+    margin: 30px 0;
+}
+#counterTimer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.seconds {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#start, #btn, #stop {
+    font-size: 20px;
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 4px 8px;
+
+    cursor: pointer;
+}
