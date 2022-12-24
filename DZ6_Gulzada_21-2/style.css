@@ -1,0 +1,20 @@
+
+#box {
+    width: 400px;
+    height: 350px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: whitesmoke
+}
+button {
+    width: 170px;
+    margin-top: 30px;
+    background-color: #24A0ED;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    padding: 4px 10px;
+}
+
