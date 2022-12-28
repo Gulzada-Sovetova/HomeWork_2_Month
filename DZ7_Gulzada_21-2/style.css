@@ -1,0 +1,95 @@
+body {
+    background-color: aliceblue;
+    margin: 10px;
+}
+.box {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px 20px;
+    margin-top: 20px;
+}
+.item {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #0795ee;
+    color: whitesmoke;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+.item:hover {
+    opacity: 0.8;
+}
+.item_active {
+    background-color: orange;
+
+}
+.liDelete{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: flex-end;
+    cursor: pointer;
+    justify-content:space-between;
+    color: whitesmoke;
+    border: 1px solid grey;
+    background-color: #d72503;
+}    
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inp  {
+    width: 465px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid grey;
+}
+#btn_box {
+    display: flex;
+    justify-content: center;
+}
+.add {
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+.add:hover {
+    opacity: 0.6;
+}
+.add:active {
+    background-color: grey;
+}
+.add {
+    background-color: #09aeae;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+li {
+    width: 450px;
+    position: relative;
+    display: block;
+    padding: 6px 12px;
+
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid grey;
+    
+}
